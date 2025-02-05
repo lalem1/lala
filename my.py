@@ -3,7 +3,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import logging
 from dotenv import load_dotenv
 import os
-
+BOT_TOKEN1 = "7675260052:AAGwqz7XmWLu9CNwD1Yqx2HdpW5IzAPrBHQ"
+CHANNEL_ID1 = "@kdamegebeyas"
 # Enable logging
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
